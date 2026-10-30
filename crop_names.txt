@@ -1,0 +1,37 @@
+Bajra
+Barley
+Castorseed
+Cereals
+Cotton
+Gram
+Groundnut
+Guarseed
+Jowar
+Jute
+Jute & Mesta
+Lentil
+Linseed
+Maize
+Mesta
+Moong
+Nigerseed
+Nutri/Coarse Cereals
+Other Pulses
+Ragi
+Rapeseed & Mustard
+Rice
+Safflower
+Sannhemp
+Sesamum
+Shree Anna /Nutri Cereals
+Small Millets
+Soybean
+Sugarcane
+Sunflower
+Tobacco
+Total Food Grains
+Total Oil Seeds
+Total Pulses
+Tur
+Urad
+Wheat

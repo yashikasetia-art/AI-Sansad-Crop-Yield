@@ -1,0 +1,37 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.sqlite3
+*.joblib
+models/
+outputs/generated/
+.streamlit/secrets.toml
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and models
+*.sqlite3
+*.joblib
+models/
+
+# Generated files
+outputs/generated/
+*.log
+
+# IDE and system files
+
+.vscode/
+.pyprojectx/
+desktop.ini

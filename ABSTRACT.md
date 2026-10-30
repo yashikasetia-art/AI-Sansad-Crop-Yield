@@ -1,0 +1,7 @@
+# Abstract
+
+Cropwise AI is an offline-first system for comparing Indian crop yields across years and identifying crops with relatively stable or volatile historical outcomes. It uses the supplied all-India year-wise crop area, production, and yield dataset as the primary long-term source, preserves missing observations, and selects reported `Total` rows for annual comparisons without summing seasonal records.
+
+The statistical engine reports mean, median, spread, sample coefficient of variation, linear yield trend, detrended residual variability, downside deviations, and empirical-cohort stability labels. A separate machine-learning experiment evaluates Random Forest and Gradient Boosting forecasts with chronological splits and a previous-year-yield baseline. Isolation Forest screens unusual trend residuals; K-Means optionally groups crop stability profiles. Results are persisted in SQLite and presented through FastAPI and Streamlit, with offline data loading and report exports.
+
+The system distinguishes description from prediction and correlation from causation. The state data cover only recent years and contain substantial missingness; district data are a single-year snapshot. Model usefulness is assessed against the baseline, and no accuracy or policy impact is asserted without measured evidence. The intended contribution is a transparent workflow that makes assumptions, observation counts, time coverage, data provenance, and analytical limitations visible to researchers and policymakers.
